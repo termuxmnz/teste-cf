@@ -1,0 +1,18 @@
+{
+  "name": "code-forge-pedidos-demo-netlify",
+  "version": "2.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Demonstração de pedidos, estoque, painel e WhatsApp adaptada para Netlify Functions e Netlify Blobs.",
+  "scripts": {
+    "dev": "npx netlify dev",
+    "start": "npx netlify dev",
+    "check": "node --check netlify/functions/api.mjs"
+  },
+  "dependencies": {
+    "@netlify/blobs": "10.7.9"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
